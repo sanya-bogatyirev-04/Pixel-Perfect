@@ -1,0 +1,50 @@
+body{
+    background: grey;
+}
+
+.card{
+    background: white;
+    width: 180px;
+    padding: 22px;
+    border-radius: 16px;
+    box-sizing: border-box;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h3{
+    font-family: Nunito;
+}
+
+.heard{
+    transform: translateX(100px);
+}
+
+.picture1{
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.dinner{
+    margin-left: 20px;
+    transform: scale(1.4);
+}
+
+.picture2{
+    margin-bottom: 0px;
+
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr; /* 3 колонки */
+    grid-gap: 10px;
+}
+
+.price{
+    grid-column: 1 / 3; /* Размещение во второй колонке */
+}
+
+
+.plus{
+    grid-column: 3 / 3; /* Размещение во второй колонке */
+}
