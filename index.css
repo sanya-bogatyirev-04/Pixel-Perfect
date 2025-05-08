@@ -36,15 +36,15 @@ h3{
     margin-bottom: 0px;
 
     display: grid;
-    grid-template-columns: 1fr 2fr 1fr; /* 3 колонки */
+    grid-template-columns: 1fr 2fr 1fr; 
     grid-gap: 10px;
 }
 
 .price{
-    grid-column: 1 / 3; /* Размещение во второй колонке */
+    grid-column: 1 / 3; 
 }
 
 
 .plus{
-    grid-column: 3 / 3; /* Размещение во второй колонке */
+    grid-column: 3 / 3; 
 }
